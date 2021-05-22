@@ -1,0 +1,79 @@
+package com.example.accessingdatamysql;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity // This tells Hibernate to make a table out of this class
+public class User {
+  @Id
+  @GeneratedValue(strategy=GenerationType.AUTO)
+  private Integer Transactions;
+
+  private Integer reference(unique);
+
+  private Integer amount;
+  
+  private Integer account nr;
+
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  public Integer getTransaction() {
+    return Transaction;
+  }
+
+  public void setTransaction(Integer Transaction) {
+    this.Transaction = Transaction;
+  }
+
+  public Integer reference(unique)() {
+    return reference(unique);
+  }
+
+  public void setreference(unique)(Integer reference(unique)) {
+    this.reference(unique) = reference(unique);
+  }
+  public Integer amount() {
+    return amount;
+  }
+
+  public void setaccount nr(Integer account nr) {
+    this.account nr = account nr;
+  }
+
+  private Integer balances;
+
+  private Integer account nr(unique);
+
+  private Integer balance;
+ 
+
+  public Integer getbalances() {
+    return balances;
+  }
+
+  public void setbalances(Integer balances) {
+    this.balances = balances;
+  }
+
+  public Integer account nr(unique)() {
+    return account nr(unique);
+  }
+
+  public void setaccount nr(unique)(Integer account nr(unique)) {
+    this.account nr(unique) = account nr(unique);
+  }
+  public Integer balance() {
+    return balance;
+  }
+
+  public void setbalance(Integer balance) {
+    this.balance = balance;
+  }
+}
+}
